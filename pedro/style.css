@@ -83,6 +83,7 @@ section {
 
 picture {
     position: relative;
+    top: 1px;
 }
 
 h1 {
