@@ -5,5 +5,11 @@
 @charset "UTF-8";
 
 #texto {
-    max-width: 70vw;
+    max-width: 320px;
+
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
 }
