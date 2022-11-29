@@ -50,6 +50,7 @@ nav {
 nav>a {
     color: #cecece;
     text-decoration: none;
+    font-size: large;
     margin-right: 20px;
 }
 
@@ -126,7 +127,10 @@ footer{
     
 
 
-/* Falta  ajeitar a foto
-tirar o fundo do texto
-transformar o nav em hamburger
-foto de tamanho variavel*/ 
+/* 
+- tamanho do texto no mobile
+- footer no mobile
+- transformar o nav em hamburger
+- foto de tamanho variavel
+- 
+*/ 
