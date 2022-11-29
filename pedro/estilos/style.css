@@ -6,8 +6,10 @@
     font-family: Calibri,'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
 }
 
-body {
+html, body {
     background-color: #202020;
+    height: 100vh;
+    width: 100vw;
 }
 
 header {
@@ -81,19 +83,6 @@ main {
     color: #cecece;
 }
 
-main>picture {
-    display: flex;
-    justify-content: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin-top: 10px;
-}
-
-picture>img {
-    border-radius: 0px 0px 10px 0px;
-}
-
 h1 {
     font-size: 23px;
     font-weight: lighter;
@@ -113,6 +102,28 @@ h3 {
 p {
     font-size: larger;
 }
+
+main>picture {
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+picture>img {
+    border-radius: 0px 0px 10px 0px;
+}
+
+footer{
+    width: 100%;
+    height: 20px;
+    position: relative;
+    bottom: -87px;
+}
+
+
+    
 
 
 /* Falta  ajeitar a foto
