@@ -20,5 +20,12 @@ main {
     top: 50px;
     left: 50px;
     max-width: 80%;
+    max-width: 320px;
     color: #cecece;
+}
+
+
+picture>img {
+    position: block;
+    border-radius: 0px 0px 10px 0px;
 }
