@@ -87,6 +87,7 @@ main>picture {
     position: absolute;
     bottom: 0;
     right: 0;
+    margin-top: 10px;
 }
 
 picture>img {
@@ -112,6 +113,7 @@ h3 {
 p {
     font-size: larger;
 }
+
 
 /* Falta  ajeitar a foto
 tirar o fundo do texto
