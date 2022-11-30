@@ -2,84 +2,69 @@
 
 * {
     margin: 0px;
+    padding: 0px;
     font-size: 1em;
     font-family: Calibri,'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
 }
 
 html, body {
     background-color: #202020;
-    height: 100vh;
-    width: 100vw;
 }
 
 header {
-    height: 120px;
     margin: auto;
-    max-width: 1000px;
-    width: 90vw;
 }
 
-#idiomas {
-    position: relative;
-    top: 60px;
-    margin-left: 20px;
+i#burguer {
+    color: white;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
 }
 
-a>img {
-    height: 20px;
-    border-radius: 20px;
-    border: 1px solid #cecece;
-    margin-right: 10px;
+i#burguer:hover {
+    background-color: white;
+    color: #202020;
 }
 
-a>img:hover {
-    height: 20px;
-    border-radius: 20px;
-    border: 1px solid yellow;
-    margin-right: 10px;
+menu {
+    text-align: center;
+    display: none;
 }
 
-nav {
-    position: relative;
-    top: 80px;
-    text-align: end;
-    margin-right: 10px;
-    font-weight: bold;
+menu > ul {
+    list-style-type: none ;
 }
 
-nav>a {
+menu > ul > li {
+    padding: 5px;
+}
+
+menu > ul > li > a {
     color: #cecece;
     text-decoration: none;
     font-size: large;
-    margin-right: 20px;
+    font-weight: bold;
 }
 
-nav>a:hover {
+menu> ul > li > a:hover {
     color: #ffffff;
-    margin-right: 20px;
-}
-
-nav#pag-atual:hover {
-    color: #ffffff;
-    text-decoration: none;
-    margin-right: 20px;
 }
 
 main {
-    position: relative;
-    top: 30px;
-    height: 700px;
-    max-width: 1000px;
+
     width: 90vw;
+    height: 800px;
     border-radius: 10px;
     margin: auto;
+    margin-top: 20px;
     box-shadow: 0px 0px 10px white;
 }
 
 #texto {
-    position: relative;
-    top: 50px;
-    left: 50px;
+    margin: auto;
+    padding-top: 50px;
     max-width: 320px;
     color: #cecece;
 }
@@ -106,11 +91,8 @@ p {
 }
 
 main>picture {
-    display: flex;
-    justify-content: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+        position: absolute;
+        bottom: 59px;
 }
 
 picture>img {
@@ -124,6 +106,26 @@ footer{
     bottom: -97px;
 }
 
+#idiomas {
+    position: relative;
+    top: 60px;
+    margin-left: 20px;
+}
+
+a>img {
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid #cecece;
+    margin-right: 10px;
+}
+
+a>img:hover {
+    display: block;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid yellow;
+    margin-right: 10px;
+}
 
     
 
