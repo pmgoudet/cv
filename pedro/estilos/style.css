@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-* {
+* { 
     margin: 0px;
     padding: 0px;
     font-size: 1em;
@@ -14,6 +14,10 @@ html, body {
 header {
     margin: auto;
 }
+
+/*-----------------------------------------------*/
+/* -------------HEADER---------------------------*/
+/*-----------------------------------------------*/
 
 i#burguer {
     color: white;
@@ -52,10 +56,15 @@ menu> ul > li > a:hover {
     color: #ffffff;
 }
 
+
+/*-----------------------------------------------*/
+/* -------------CORPO DO SITE--------------------*/
+/*-----------------------------------------------*/
+
 main {
 
     width: 90vw;
-    height: 800px;
+    max-height: 853px;
     border-radius: 10px;
     margin: auto;
     margin-top: 20px;
@@ -90,14 +99,6 @@ p {
     padding-right: 20px;
 }
 
-main>picture {
-        position: absolute;
-        bottom: 59px;
-}
-
-picture>img {
-    border-radius: 0px 0px 10px 0px;
-}
 
 footer{
     width: 100%;
@@ -111,6 +112,10 @@ footer{
     top: 60px;
     margin-left: 20px;
 }
+
+/*-----------------------------------------------*/
+/* -------------FOOTER IDIOMAS-------------------*/
+/*-----------------------------------------------*/
 
 a>img {
     height: 20px;
